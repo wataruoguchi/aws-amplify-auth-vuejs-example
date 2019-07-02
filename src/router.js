@@ -27,19 +27,19 @@ const router = new Router({
     {
       path: '/signUp',
       name: 'signUp',
-      component: () => import(/* webpackChunkName: "about" */ './views/SignUp.vue'),
+      component: () => import(/* webpackChunkName: "signup" */ './views/SignUp.vue'),
       meta: { requiresAuth: false },
     },
     {
       path: '/signUpConfirm',
       name: 'signUpConfirm',
-      component: () => import(/* webpackChunkName: "about" */ './views/SignUpConfirm.vue'),
+      component: () => import(/* webpackChunkName: "confirm" */ './views/SignUpConfirm.vue'),
       meta: { requiresAuth: false },
     },
     {
       path: '/signIn',
       name: 'signIn',
-      component: () => import(/* webpackChunkName: "about" */ './views/SignIn.vue'),
+      component: () => import(/* webpackChunkName: "signin" */ './views/SignIn.vue'),
       meta: { requiresAuth: false },
     },
   ]
