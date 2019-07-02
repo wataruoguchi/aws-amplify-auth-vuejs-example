@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import {signIn} from '@/utils/auth.js'
 export default {
   name: "SignIn",
   data() {
@@ -49,6 +50,7 @@ export default {
     submit() {
       if (this.$refs.form.validate()) {
         console.log(`SIGN IN username: ${this.username}, password: ${this.password}`);
+        signIn(this.username, this.password);
       }
     },
   },
