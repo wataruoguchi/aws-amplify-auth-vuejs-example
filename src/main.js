@@ -2,6 +2,9 @@ import Vue from 'vue'
 import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
+import Amplify from 'aws-amplify'
+import awsconfig from './aws-exports'
+Amplify.configure(awsconfig)
 
 Vue.config.productionTip = false
 
