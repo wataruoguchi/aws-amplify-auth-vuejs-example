@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"myappe4620b96": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
