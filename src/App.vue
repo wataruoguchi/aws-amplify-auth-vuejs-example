@@ -20,9 +20,13 @@
     <v-content>
       <v-container fluid fill-height>
         <v-layout justify-center align-center>
+<<<<<<< HEAD
           <v-flex xs12 sm10 offset-sm1 md8 offset-md2>
             <router-view style="margin-top:70px"/>
           </v-flex>
+=======
+          <router-view style="margin-top:70px"/>
+>>>>>>> d54948d5bc9a6473b02652412fc2b2531bcd957a
         </v-layout>
       </v-container>
     </v-content>
